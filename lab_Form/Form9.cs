@@ -108,6 +108,11 @@ namespace lab_Form
             {
                 result += i + "\n"; 
                 i++;
+
+                if (i > 8)
+                {
+                    break;  //停止迴圈
+                }
             }
              MessageBox.Show(result); 
         }
@@ -142,6 +147,29 @@ namespace lab_Form
             }
           
             MessageBox.Show(result);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            foreach(Control item in Controls)  //foreach 適合用在集合或陣列
+            {
+                //if (item.GetType() != typeof(Button))
+                //{
+                //    continue;  // 指定不執行項目
+                //}
+
+                if(!(item is Button))  //is  是判斷式
+                {
+                    continue;// 指定不執行項目
+                }
+                
+                item.Left -= 10;
+                item.Top -= 10;
+                item.BackColor = Color.White;
+                item.ForeColor = Color.Black;
+            }
+
+            Control btn = new Button(); //所有功能都繼承於Control    繼承符號為  :
         }
     }
 }

@@ -39,6 +39,7 @@ namespace lab_Form
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -138,11 +139,22 @@ namespace lab_Form
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(567, 254);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(141, 51);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "foreach";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -154,7 +166,7 @@ namespace lab_Form
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form9";
-            this.Text = "Form9";
+            this.Text = "v";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,5 +184,6 @@ namespace lab_Form
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

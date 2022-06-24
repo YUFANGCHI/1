@@ -50,19 +50,19 @@ namespace HomeWork
 
             if (beer > 0)
             {
-                textBox1.Text += $"\n\r啤酒x{beer}共NT${beertotal}";
+                textBox1.Text += $"啤酒x{beer}共NT${beertotal}\r\n";
             }
             if (tequila > 0)
             {
-                textBox1.Text += $"\n\r龍舌蘭x{tequila}共NT${tequilatota}";
+                textBox1.Text += $"龍舌蘭x{tequila}共NT${tequilatota}\r\n";
             }
             if (whisky > 0)
             {
-                textBox1.Text += $"\n\r威士忌x{whisky}共NT${whiskytotal}";
+                textBox1.Text += $"威士忌x{whisky}共NT${whiskytotal}\r\n";
             }
             if (wine>0)
             {
-                textBox1.Text += $"\n\r紅酒x{wine}共NT${winetotal}";
+                textBox1.Text += $"紅酒x{wine}共NT${winetotal}\r\n";
             }
 
 
