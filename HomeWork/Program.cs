@@ -16,7 +16,7 @@ namespace HomeWork
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new work3());
+            Application.Run(new WORK7());
         }
     }
 }

@@ -131,6 +131,15 @@ namespace HomeWork
             }
         }
 
-  
+        private void button7_Click(object sender, EventArgs e)
+        {
+            beer = 0;
+            tequila = 0;
+            whisky = 0;
+            wine = 0;
+
+            textBox1.Text = "尚未購物";
+            textBox2.Text="NT$0";
+    }
     }
 }

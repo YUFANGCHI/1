@@ -90,6 +90,12 @@
     <Compile Include="work6.Designer.cs">
       <DependentUpon>work6.cs</DependentUpon>
     </Compile>
+    <Compile Include="WORK7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WORK7.Designer.cs">
+      <DependentUpon>WORK7.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="work5.resx">
       <DependentUpon>work5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WORK7.resx">
+      <DependentUpon>WORK7.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
